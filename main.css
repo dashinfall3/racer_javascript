@@ -11,32 +11,14 @@
   width: 720px;
 }
 
-#registration {
-  margin: 0 auto;
-  padding: 20px;
-  background-image: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
-  width: 40%;
-  border-radius: 10px;
+
+.racer_table td {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #535353;
 }
 
-
-input[type='email'] {
-position: relative;
-top: 100px;
-}
-
-
-input[type='password'] {
-width:100px;
-}
-
-input[type='submit'] {
-
-  color: white;
-  box-shadow: white;
-}
-
-button[type='submit'] {
-  color: white;
-  background: #474f57;
+.racer_table td.active {
+  background-color: black;
 }
